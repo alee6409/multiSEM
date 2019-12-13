@@ -9,4 +9,4 @@
 2 路径为中介模型
 
 
-mediation.lav和mediation2.lav是中介模型的两个模型，实际上对于代码的编写没有差别，故同一个multiSEM_mediation.r
+mediation.lav和mediation2.lav是中介模型的两个模型
