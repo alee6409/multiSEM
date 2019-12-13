@@ -1,0 +1,5 @@
+fa_sup =~ a*ses  + c*value
+bad ~ d*fa_sup  + e*hard
+hard ~ g*fa_sup
+ind := g*e
+total := g*e + d

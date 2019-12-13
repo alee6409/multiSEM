@@ -1,0 +1,2 @@
+fa_sup =~ a*ses + b*pa + c*value
+bad ~ d*fa_sup

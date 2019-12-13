@@ -1,7 +1,7 @@
 library(lavaan)
 library(lavaan.survey)
 
-model <- readLines('regression.lav')
+model <- readLines('moderation.lav')
 
 fit.naive <- sem(model, data = data1, std.lv=TRUE, estimator="MLM")
 survey.design <- svydesign(ids = ~schids, prod = ~1, data = data1)
